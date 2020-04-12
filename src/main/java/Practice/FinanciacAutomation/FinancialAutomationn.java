@@ -75,7 +75,7 @@ public class FinancialAutomationn {
 			String techtitle= driver.getTitle();
 			System.out.println("Tech title is: " +techtitle);
 			Assert.assertEquals(techtitle,"Tech News - Latest Technology Headlines and Trends on CNN Business - CNN" );
-            Thread.sleep(2000);
+            
             
             //Media
             pf.getMedia().click();//driver.findElement(By.xpath("(//*[text()='Media'])[1]")).click();
@@ -151,10 +151,10 @@ public class FinancialAutomationn {
 			
 		}
 		@Test (dependsOnMethods="testcasenumber5") //Test case-6
-		public void testcasenumber6() {
+		public void testcase6() {
 			
 		}
-		@Test(dependsOnMethods="testcasenumber6")//Teast case-7
+		@Test(dependsOnMethods="testcase6")//Teast case-7
 		public void testcasenumber7() {
 			
 		}
