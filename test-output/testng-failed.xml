@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Practice.FinanciacAutomation.FinancialAutomationn">
+        <methods>
+          <include name="cnnPages"/>
+          <include name="testcasenumber4"/>
+          <include name="testcasenumber5"/>
+          <include name="testcasenumber3"/>
+          <include name="testcasenumber10"/>
+          <include name="setup"/>
+          <include name="testcasenumber8"/>
+          <include name="testcasenumber9"/>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="testcasenumber6"/>
+          <include name="testcasenumber7"/>
+        </methods>
+      </class> <!-- Practice.FinanciacAutomation.FinancialAutomationn -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

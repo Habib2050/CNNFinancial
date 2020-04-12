@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-12T05:00:55Z" name="Default suite" finished-at="2020-04-12T05:01:54Z" duration-ms="58896">
+    <groups>
+    </groups>
+    <test started-at="2020-04-12T05:00:55Z" name="Default test" finished-at="2020-04-12T05:01:54Z" duration-ms="58896">
+      <class name="Practice.FinanciacAutomation.FinancialAutomationn">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:00:55Z" name="setup" finished-at="2020-04-12T05:00:57Z" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:00:57Z" name="login" finished-at="2020-04-12T05:01:04Z" duration-ms="7209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cnnPages()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:01:04Z" name="cnnPages" finished-at="2020-04-12T05:01:46Z" depends-on-methods="Practice.FinanciacAutomation.FinancialAutomationn.login" duration-ms="42140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cnnPages -->
+        <test-method signature="testcasenumber3()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:01:46Z" name="testcasenumber3" finished-at="2020-04-12T05:01:53Z" depends-on-methods="Practice.FinanciacAutomation.FinancialAutomationn.cnnPages" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasenumber3 -->
+        <test-method signature="testcasenumber4()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:01:53Z" name="testcasenumber4" finished-at="2020-04-12T05:01:54Z" depends-on-methods="Practice.FinanciacAutomation.FinancialAutomationn.testcasenumber3" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasenumber4 -->
+        <test-method signature="testcasenumber5()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:01:54Z" name="testcasenumber5" finished-at="2020-04-12T05:01:54Z" depends-on-methods="Practice.FinanciacAutomation.FinancialAutomationn.testcasenumber4" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasenumber5 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Practice.FinanciacAutomation.FinancialAutomationn@69453e37]" started-at="2020-04-12T05:01:54Z" name="teardown" finished-at="2020-04-12T05:01:54Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Practice.FinanciacAutomation.FinancialAutomationn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

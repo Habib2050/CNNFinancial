@@ -1,0 +1,39 @@
+FRAME WORK
+  prerequisites
+  *Java 
+  *Selenium
+  *Maven 
+  *TestNG
+  *Github
+  *Jenkins
+ 
+  
+  Packages
+  * generic library
+  *Page Factory
+  *Config
+  *Util 
+  *Excell Util 
+  *Database Util 
+  *com.financialautomation.testng
+  
+  Create Project For CNN/Business application
+  Step 1: Open Eclipse 
+  Step 2: Create Maven Project
+  Step 3: Add dependencies and plugin in pom.xml>>> save it
+  Step 4: Update the project from maven 
+  Step 5: Maven Goal >>> clean and install
+  step 6: generic library>>Create Class>> Class name ; FinancialAutomation
+  step 7: In this class I put my setup and codes and methods.
+  step 8: Page Factory >>> I put all the xpaths in there.(Constructor,encapsulation, Using PF as my repository for xpaths)
+  step 9: I initialiaze my pagefactory to my base class. Classname pf=PageFactory.initelement(driver, Classname.class)
+  step 10: From My project I did open a file name config.properties. In this file I put the URL (I can also put user name and password)
+  step 11: Then I create a package named com.config>>inside the com.config I create a class>>class name OpenMap. In this Class I do serilization and deserilization
+  step 12: Create package for testng>>package name is com.financialautomation.testng >>In this package create class for dependsOnMethod
+  step13: TestNg go with alphapetic way. So We need to use dependson method to guide the test cases. 
+  Step 14: Create a package .Package name is  com.financial.testng >>I put DependsOnMethodd class here . Inside the class I have dependsOnMethods set up 
+  step 15:Test Case Number 3= Go to the Market page and find out top section there should be "DOW, Nasdaq and S&P< 
+  Question When do you write test cases?
+  Answer: After the design stage, I start to write test cases base on requirements and design template. 
+  Step 16: 
+  
