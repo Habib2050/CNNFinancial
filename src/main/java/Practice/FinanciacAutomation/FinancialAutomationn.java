@@ -83,7 +83,7 @@ public class FinancialAutomationn {
 			String mediatitle= driver.getTitle();
 			System.out.println("Media title is: " +mediatitle);
 			Assert.assertEquals(mediatitle,"Media News - Latest Headlines on CNN Business - CNN" );
-            Thread.sleep(2000);
+            
             
             
             //Success
@@ -163,10 +163,10 @@ public class FinancialAutomationn {
 			
 		}
 		@Test(dependsOnMethods="testcasenumber8")//Test case-9
-		public void testcasenumber9() {
+		public void testcase9() {
 			
 		}
-		@Test(dependsOnMethods="testcasenumber9")//Test case-10
+		@Test(dependsOnMethods="testcase9")//Test case-10
 		public void testcasenumber10()
 		{
 			
