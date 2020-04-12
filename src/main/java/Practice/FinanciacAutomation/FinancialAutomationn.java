@@ -31,12 +31,10 @@ public class FinancialAutomationn {
 			//WebDriver driver = new ChromeDriver();// upcasting
 			
 			driver = new ChromeDriver();
-			
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		
 		}
 		@Test //TestCase 1
 		
@@ -67,7 +65,7 @@ public class FinancialAutomationn {
 			//String title= driver .getTitle();
 			System.out.println("Marrket title is: " + actualTitle);
 			Assert.assertEquals(actualTitle,"Stock Market Data - Dow Jones, Nasdaq, S&P 500 - CNNMoney" );
-			Thread.sleep(2000);
+	
 
 		
 			//Tech
