@@ -32,7 +32,7 @@ public static void getCellData() {
 	projectPath=System.getProperty("user.dir");
 	workbook=new XSSFWorkbook(projectPath+ "/CNN_Test_ Data/Test Data Financial.xlsx");
 	sheet= workbook.getSheet("Market");
-	String cellData=sheet.getRow(0).getCell(1).getStringCellValue();
+	String cellData=sheet.getRow(0).getCell(0).getStringCellValue();
 	System.out.println(cellData);
 	double cellData1=sheet.getRow(1).getCell(1).getNumericCellValue();
 	}catch(Exception exp) {
